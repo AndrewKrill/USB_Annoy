@@ -1,0 +1,16 @@
+(module connectors:usb-PCB (layer F.Cu) (tedit 58C04087)
+  (attr virtual)
+  (fp_text reference J2 (at 6.48 -7.85) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value USB_A_PLUG (at 6.64 -10.13) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_line (start 12.38 0) (end 12.38 -12) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 12.38 0) (end 0.32 0) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 0.32 0) (end 0.32 -12) (layer Dwgs.User) (width 0.15))
+  (pad 1 connect rect (at 10.16 -4.9) (size 1.9 8) (layers F.Cu F.Mask))
+  (pad 4 connect rect (at 2.54 -4.9) (size 1.9 8) (layers F.Cu F.Mask))
+  (pad 3 connect rect (at 5.05 -5.15) (size 2 7.5) (layers F.Cu F.Mask))
+  (pad 2 connect rect (at 7.65 -5.15) (size 2 7.5) (layers F.Cu F.Mask))
+)
